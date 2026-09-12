@@ -154,9 +154,9 @@ STATICFILES_DIRS = [
 
 # ✅ ADDED: Cloudinary configuration for media files
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': config('CLOUDINARY_CLOUD_NAME', default=''),
-    'API_KEY': config('CLOUDINARY_API_KEY', default=''),
-    'API_SECRET': config('CLOUDINARY_API_SECRET', default=''),
+    'CLOUD_NAME': config('CLOUDINARY_CLOUD_NAME', default='x1h0vgur'),
+    'API_KEY': config('CLOUDINARY_API_KEY', default='374452581732956'),
+    'API_SECRET': config('CLOUDINARY_API_SECRET', default='hv_g2dXSkW5AjLlB52dF9l-j7x4'),
 }
 
 # ✅ ADDED: Use Cloudinary for media storage
