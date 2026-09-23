@@ -19,7 +19,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 # Empty by default, set in production .env
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=['127.0.0.1','localhost']).split(',')
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost').split(',')
 
 if not DEBUG:
     SECURE_SSL_REDIRECT = True
